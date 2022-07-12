@@ -5,7 +5,8 @@
 **You can easily implement Animation Page indicator.**
 
 
-https://user-images.githubusercontent.com/61003485/178436364-7bc2067e-e791-489b-9262-36056a45be1d.gif
+![ezgif-4-4d63391b88](https://user-images.githubusercontent.com/61003485/178436364-7bc2067e-e791-489b-9262-36056a45be1d.gif)
+
 
 ## Usage
 
