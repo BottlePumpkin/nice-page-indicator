@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:nice_page_indicator/src/page_indicator_item/page_indicator_style.dart';
 
-
 class PageIndicatorItem extends StatelessWidget {
   const PageIndicatorItem(
       {Key? key,
