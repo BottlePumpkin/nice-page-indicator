@@ -2,15 +2,16 @@ import 'package:flutter/material.dart';
 import '../src.dart';
 
 class NicePageIndicator extends StatefulWidget {
-  const NicePageIndicator({Key? key,
-    required this.pageController,
-    required this.pageWidgets,
-    this.physics,
-    this.pageIndicatorStyle,
-    this.pageIndicatorLocation = PageIndicatorLocation.topRight,
-    this.pageIndicatorPadding = const EdgeInsets.symmetric(horizontal: 16),
-    this.pageUpperWidgets,
-    this.pageLowerWidgets})
+  const NicePageIndicator(
+      {Key? key,
+      required this.pageController,
+      required this.pageWidgets,
+      this.physics,
+      this.pageIndicatorStyle,
+      this.pageIndicatorLocation = PageIndicatorLocation.topRight,
+      this.pageIndicatorPadding = const EdgeInsets.symmetric(horizontal: 16),
+      this.pageUpperWidgets,
+      this.pageLowerWidgets})
       : super(key: key);
 
   final PageController pageController;
@@ -53,11 +54,11 @@ class _NicePageIndicatorState extends State<NicePageIndicator> {
                     return Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        if (widget.pageUpperWidgets != null) widget
-                            .pageUpperWidgets!,
+                        if (widget.pageUpperWidgets != null)
+                          widget.pageUpperWidgets!,
                         widget.pageWidgets[index],
-                        if (widget.pageLowerWidgets != null) widget
-                            .pageLowerWidgets!,
+                        if (widget.pageLowerWidgets != null)
+                          widget.pageLowerWidgets!,
                       ],
                     );
                   } else {
@@ -72,10 +73,10 @@ class _NicePageIndicatorState extends State<NicePageIndicator> {
                 padding: widget.pageIndicatorPadding,
                 child: Row(
                   mainAxisAlignment:
-                  widget.pageIndicatorLocation.mainAxisAlignment,
+                      widget.pageIndicatorLocation.mainAxisAlignment,
                   children: List.generate(
                     widget.pageWidgets.length,
-                        (index) {
+                    (index) {
                       if (widget.pageIndicatorStyle == null) {
                         return PageIndicatorItem(
                           currentIndex: currentIndex,
