@@ -1,6 +1,4 @@
-
 import 'package:flutter/material.dart';
-
 
 class PageIndicatorStyle {
   final Color activeColor;
@@ -12,9 +10,9 @@ class PageIndicatorStyle {
 
   const PageIndicatorStyle(
       {this.activeColor = Colors.black,
-        this.inActiveColor = Colors.white,
-        this.animationDuration = const Duration(milliseconds: 100),
-        this.activeSize = 8.0,
-        this.inActiveSize = 6.0,
-        this.margin = const EdgeInsets.only(right: 5)});
+      this.inActiveColor = Colors.white,
+      this.animationDuration = const Duration(milliseconds: 100),
+      this.activeSize = 8.0,
+      this.inActiveSize = 6.0,
+      this.margin = const EdgeInsets.only(right: 5)});
 }

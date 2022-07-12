@@ -1,5 +1,3 @@
-
-
 import 'package:flutter/rendering.dart';
 
 enum PageIndicatorLocation {

@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:nice_page_indicator/nice_page_indicator.dart';
 
-
 void main() {
   runApp(const MyApp());
 }
@@ -60,7 +59,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return NicePageIndicator(
       pageController: pageController,
       physics: const ScrollPhysics(),
-      contents: contents,
+      pageWidgets: contents,
       pageIndicatorStyle: const PageIndicatorStyle(activeColor: Colors.cyan),
       pageIndicatorLocation: PageIndicatorLocation.topRight,
       pageIndicatorPadding: const EdgeInsets.all(16),
