@@ -26,10 +26,14 @@ dependencies:
 
 ▶️ If You want to PageIndicator Style, Chagned **PageIndicatorStyle Class** Argument.
 
+
 - **indicator location**
     - topLeft,topCenter,topRight,centerLeft,center,centerRight,bottomLeft,bottomCetner,bottomRight
+    
 
 ▶️ If You want to PageIndicator Location, set **pageIndicatorLocation Type**.
+
+
 
 ```
 NicePageIndicator(
@@ -41,6 +45,8 @@ NicePageIndicator(
   pageIndicatorPadding:constEdgeInsets.all(16),
 );
 ```
+
+
 
 - with Column
 
