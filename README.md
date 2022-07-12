@@ -12,10 +12,14 @@
 
 ### Install
 
+
+
 ```
 dependencies:
   nice_page_indicator: ^0.0.3
 ```
+
+
 
 ### How To Use
 
